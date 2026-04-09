@@ -1,9 +1,8 @@
 [package]
 name = "cuda-intent-embed"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Intent embeddings — human text to structured intent vectors for A2A deliberation"
+description = "Intent embedding — uses cuda-equipment"
 
 [dependencies]
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+# cuda-equipment = { path = "../cuda-equipment" }
