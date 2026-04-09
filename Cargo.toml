@@ -1,8 +1,11 @@
 [package]
 name = "cuda-intent-embed"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2021"
-description = "Intent embedding — uses cuda-equipment"
+description = "Intent embedding — 8-dimensional vectors, cosine similarity, domain classification, intent caching"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-intent-embed"
+keywords = ["ai", "fleet", "agent"]
 
 [dependencies]
-# cuda-equipment = { path = "../cuda-equipment" }
+cuda-equipment = { path = "../cuda-equipment" }
