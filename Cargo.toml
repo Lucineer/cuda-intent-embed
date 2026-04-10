@@ -2,7 +2,7 @@
 name = "cuda-intent-embed"
 version = "0.1.0"
 edition = "2021"
-description = "8-dim intent vectors, 12 domains, cosine similarity"
+description = "Intent vectors with cosine similarity"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-intent-embed"
 readme = "README.md"
